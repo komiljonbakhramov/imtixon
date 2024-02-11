@@ -1,0 +1,84 @@
+.testimonals {
+    height: 742px;
+    .container {}
+
+    &_container {
+        padding: 0;
+    }
+
+    &_header {
+        font-family: Roboto;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 4px;
+        text-align: left;
+        color: rgba(255, 94, 105, 1);
+        text-align: center;
+        margin-bottom: 67px;
+    }
+
+    &_list {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_item {}
+
+    &_item-header {
+        width: 561.91px;
+        height: 188px;
+        top: 77.34px;
+        left: -0.31px;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 47px;
+        letter-spacing: 0em;
+        text-align: left;
+
+
+    }
+
+    &_head {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    &_item-text {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    &_arrow {
+        display: flex;
+        justify-content: end;
+       
+    }
+
+    &_bt {
+        width: 54px;
+        height: 54px;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    &_left-img {}
+
+    .bt {
+        margin-left: 8px;
+    }
+
+    &_right-img {}
+}
